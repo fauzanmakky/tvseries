@@ -1,0 +1,20 @@
+{
+  "id": 1,
+  "name": "Stranger Things",
+  "original_name": "Stranger Things",
+  "overview": "When a young boy vanishes, a small town uncovers a mystery.",
+  "poster_path": "/path.jpg",
+  "backdrop_path": "/backdrop.jpg",
+  "genres": [
+    {
+      "id": 18,
+      "name": "Drama"
+    }
+  ],
+  "number_of_episodes": 34,
+  "number_of_seasons": 4,
+  "vote_average": 8.6,
+  "vote_count": 14000,
+  "first_air_date": "2016-07-15",
+  "status": "Ended"
+}

@@ -1,0 +1,20 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "id": 2,
+      "name": "Dark",
+      "overview": "A missing child causes four families to help each other uncover a time travel conspiracy.",
+      "poster_path": "/dark.jpg",
+      "backdrop_path": "/dark_backdrop.jpg",
+      "vote_average": 8.7,
+      "vote_count": 5000,
+      "popularity": 150.0,
+      "first_air_date": "2017-12-01",
+      "genre_ids": [18, 9648],
+      "original_name": "Dark"
+    }
+  ],
+  "total_pages": 1,
+  "total_results": 1
+}

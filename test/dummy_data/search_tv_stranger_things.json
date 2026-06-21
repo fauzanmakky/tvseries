@@ -1,0 +1,20 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "id": 1,
+      "name": "Stranger Things",
+      "overview": "When a young boy vanishes, a small town uncovers a mystery.",
+      "poster_path": "/path.jpg",
+      "backdrop_path": "/backdrop.jpg",
+      "vote_average": 8.6,
+      "vote_count": 14000,
+      "popularity": 369.0,
+      "first_air_date": "2016-07-15",
+      "genre_ids": [18, 9648],
+      "original_name": "Stranger Things"
+    }
+  ],
+  "total_pages": 1,
+  "total_results": 1
+}
