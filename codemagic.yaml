@@ -3,6 +3,12 @@ workflows:
     name: Android Crashlytics Build
     max_build_duration: 60
     instance_type: linux_x2
+    triggering:
+      events:
+        - tag
+      tag_patterns:
+        - pattern: 'v*'
+          include: true
     scripts:
       - name: Install FVM & gunakan Flutter 3.44.0
         script: |
