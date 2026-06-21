@@ -102,13 +102,16 @@ import 'package:tvseries/module/tvseries/presentation/bloc/watchlist_tv_series_b
 
 extension GetItInjectableX on _i174.GetIt {
   // initializes the registration of main-scope dependencies inside of GetIt
-  _i174.GetIt init({
+  Future<_i174.GetIt> init({
     String? environment,
     _i526.EnvironmentFilter? environmentFilter,
-  }) {
+  }) async {
     final gh = _i526.GetItHelper(this, environment, environmentFilter);
     final registerModule = _$RegisterModule();
-    gh.lazySingleton<_i519.Client>(() => registerModule.httpClient);
+    await gh.lazySingletonAsync<_i519.Client>(
+      () => registerModule.httpClient,
+      preResolve: true,
+    );
     gh.lazySingleton<_i684.DatabaseHelper>(() => _i684.DatabaseHelper());
     gh.lazySingleton<_i840.TvSeriesLocalDataSource>(
       () => _i840.TvSeriesLocalDataSourceImpl(
