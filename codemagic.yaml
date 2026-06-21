@@ -5,9 +5,9 @@ workflows:
     instance_type: linux_x1
     triggering:
       events:
-        - tag
-      tag_patterns:
-        - pattern: 'v*'
+        - push
+      branch_patterns:
+        - pattern: main
           include: true
     scripts:
       - name: Install FVM & gunakan Flutter 3.44.0
